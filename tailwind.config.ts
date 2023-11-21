@@ -13,6 +13,16 @@ const config: Config = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    fontFamily: {
+      mulish: "Mulish, sans-serif",
+    },
+    fontSize: {
+      xs: "var(--font-xs)",
+      sm: "var(--font-sm)",
+      md: "var(--font-md)",
+      lg: "var(--font-lg)",
+      xl: "var(--font-xl)",
+    },
     screens: {
       mobile: "var(--screen-mobile)",
       tablet: "var(--screen-tablet)",
